@@ -1,0 +1,37 @@
+name: vyparsathi
+description: A modern inventory and billing app for small businesses.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.0.5
+
+  # Local database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  path: ^1.9.0
+
+  # Speech to text
+  speech_to_text: ^6.6.0
+
+  # UI utilities
+  intl: ^0.18.1
+  flutter_slidable: ^3.0.0
+
+  # Material Design 3
+  flutter_material_design_icons: ^1.0.0  # optional
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
